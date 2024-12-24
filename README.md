@@ -1,43 +1,62 @@
-# Employee Management System  
+# Employee Management System
 
-The **Employee Management System** is a collaborative web application designed to manage employees, tasks, departments, and administrative operations efficiently. It provides role-based access for employees, managers, and admins to streamline workflows and improve organizational management.
+## Overview
+The Employee Management System (EMS) is a platform designed to simplify workforce management. It allows users to log in and access their personal and job-related information. Employees can submit leave requests and manage their assigned tasks, while managers handle leave approvals, evaluate employee performance, and assign tasks. Admins have full control over managing employee, department, and manager records. The system ensures efficient operations.
 
-## Features  
+## **Project Features**  
 
-### General  
-- **User Authentication:** Login and logout functionality for all users (employees, managers, and admins).  
-- **Personal Information:** Users can view their personal and job-related details.  
+### **User Authentication:**  
+- Secure login for all users (employees, managers, and admins).  
+- Employees log in using their ID, while managers and admins use their email.  
+- Users can log out and terminate sessions when needed.  
 
-### Employees  
-- **Vacation Requests:** Employees can submit and track day-off requests.  
-- **Task Management:** Employees can view tasks assigned to them and update task status (To Do, In Progress, Done).  
+### **Personal and Job Information:**  
+- All users can view their personal and job-related details.  
 
-### Managers  
-- **Approve/Reject Requests:** Managers can approve or deny vacation requests.  
-- **Employee Performance:** Generate performance reports and recommend promotions.  
-- **Task Assignment:** Assign tasks to employees with deadlines.  
-- **Absence Tracking:** Record absence times for department employees.  
+### **Employee-Specific Features:**  
+- Submit day-off requests, specifying start date, end date, and reason.  
+- Track vacation requests and view current status.  
+- View assigned tasks and update task status (To Do, In Progress, Done).  
 
-### Admins  
-- **Employee Records:** Manage employee data, including promotions and transfers.  
-- **Department Management:** Perform CRUD operations for department data.  
-- **Manager Records:** Add, update, and delete manager information with department assignments.  
+### **Manager-Specific Features:**  
+- Review and respond to employees’ day-off requests (approve/deny).  
+- View employee data, generate performance reports, and recommend promotions.  
+- Assign tasks to employees with specified start and end dates.  
+- Submit absence times for employees in their department.  
 
-## Technology Stack  
-- **Frontend:** HTML, CSS, Bootstrap  
-- **Backend:** PHP  
-- **Database:** MySQL managed using phpMyAdmin  
-- **Team Collaboration:** Jira for project management  
+### **Admin-Specific Features:**  
+- Perform CRUD operations on:  
+  - **Employee Records:** Add, delete, update, promote, and transfer employees.  
+  - **Department Records:** Add, delete, and update departments.  
+  - **Manager Records:** Add, delete, update, and transfer managers.  
 
-## Documentation and Diagrams  
-All project documents and diagrams, including system designs and workflows, can be accessed in the following Google Drive folder:  
-[**Project Documents and Diagrams**](https://drive.google.com/drive/folders/161S-nc0Ye6a21tyXetJu1aB7jUsmz7cA)  
+## Installation
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/emandeyab/EmployeeManagementSystem.git
+   ```
 
+2. **Set Up the Environment:**
+   - Install XAMPP or any preferred PHP server.
+   - Place the project folder in the `htdocs` directory.
 
-## Collaboration  
+3. **Database Setup:**
+   - Import the provided `emp.sql` file into your MySQL server.
+
+4. **Run the Application:**
+   - Open your browser and visit `http://localhost/EmployeeManagementSystem`.
+
+## Technologies Used
+- **Frontend:** HTML, CSS
+- **Backend:** PHP
+- **Database:** MySQL
+
+## Collaborators
 This project was developed by the following team members:
 
 - **[Kholod Elhmamsy](https://github.com/khx7ii)**
-- **[Roaa Mohamed](https://github.com/roaa46)** 
 - **[Eman Deyab](https://github.com/emandeyab)**
-- **[Abdelrahman Nassar](https://github.com/Abdelrahmannassar10)**
+- **[Roaa Mohamed](https://github.com/roaa46)**
+- **[Heba Salhien](https://github.com/hebasalhien)**
+- **[Omnia Alwan](https://github.com/Omnia-Alwan)**
+- **[Alsayed Aldkhakhni](https://github.com/Alsayed-Aldkhakhni)**
