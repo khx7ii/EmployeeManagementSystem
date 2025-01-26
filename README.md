@@ -33,7 +33,7 @@ The Employee Management System (EMS) is a platform designed to simplify workforc
 ## Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/emandeyab/EmployeeManagementSystem.git
+    https://github.com/khx7ii/EmployeeManagementSystem.git
    ```
 
 2. **Set Up the Environment:**
